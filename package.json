@@ -1,0 +1,19 @@
+{
+  "name": "eizo-meet",
+  "version": "0.0.1",
+  "description": "An anonymous video streaming platform with chat and screen share features without any need for login or signup!",
+  "main": "index.js",
+  "author": "47seconds",
+  "license": "MIT",
+  "scripts": {
+    "install": "concurrently \"cd client && yarn\" \"cd server && yarn\"",
+    "start": "concurrently \"cd client && yarn dev\" \"cd server && yarn dev\"",
+    "setup": "concurrently \"cd client && cp .env.development .env\" \"cd server && cp .env.development .env\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2"
+  }
+}
