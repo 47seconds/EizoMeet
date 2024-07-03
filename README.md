@@ -1,6 +1,8 @@
 # Eizo Meet
 
 An anonymous video streaming platform with chat and screen share features without any need for login or signup!
+<br><br>
+<b>*NOTE: THIS IS PLATFORM BRANCH, FOR DEVELOPMENT, CHECKOUT TO 'dev' BRANCH.*<b>
 
 ## Installation
 
